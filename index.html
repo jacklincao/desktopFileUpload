@@ -6,8 +6,37 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>主页</title>
+    <link rel="stylesheet" href="./src/css/index.css">
+    <link rel="stylesheet" href="./src/css/common/common.css">
 </head>
 <body>
-<script src="./src/index.js"></script>
+<div>
+<div id="filesArea"></div>
+
+<div class="menu">
+    <ul>
+        <li class="menu-item"><img src="./src/img/home.png" class="icon" alt="首页"></li>
+        <li class="menu-item"><img src="./src/img/files.png" class="icon" alt="文件"></li>
+        <li class="menu-item"><img src="./src/img/config.png" class="icon" alt="设置"></li>
+        <li class="menu-item"><img src="./src/img/statistics.png" class="icon" alt="统计"></li>
+        <li class="menu-item" id="changeBackground"><img src="./src/img/background.png" class="icon" alt="换背景">
+            <ul class="background-list">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+            </ul>
+        </li>
+        <li class="menu-item"><img src="./src/img/register.png" class="icon" alt="注销"></li>
+    </ul>
+</div>
+</div>
+
+<!--鼠标右键后弹出的操作框-->
+<div id="mouseRight"><div onclick="createFiles(event)">新建文件夹</div><div>上传文件</div><div>排序</div></div>
+<script src="./src/js/index.js"></script>
+<script src="./src/js/components/zxx.drag.1.0.js" type="text/javascript"></script>
 </body>
 </html>

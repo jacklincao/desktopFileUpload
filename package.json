@@ -1,0 +1,23 @@
+{
+  "name": "desktopfileupload",
+  "version": "1.0.0",
+  "description": "文件上传 桌面样式 文件备份",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacklincao/desktopFileUpload.git"
+  },
+  "dependencies": {
+    "browser-sync": "^2.21.0",
+    "gulp": "^3.9.1"
+  },
+  "author": "林",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacklincao/desktopFileUpload/issues"
+  },
+  "homepage": "https://github.com/jacklincao/desktopFileUpload#readme"
+}
